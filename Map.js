@@ -1,6 +1,6 @@
  function doubleAll(numbers) {
       // SOLUTION GOES HERE
-var result = []
+var result = [numbers]
 var newResult = result.map(function(numbers){
   return numbers *2;
 
