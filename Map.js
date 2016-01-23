@@ -2,11 +2,10 @@
       // SOLUTION GOES HERE
 var result = []
 
-var newResult = result;
-
-var newResult = result.map(function(numbers){
-  return numbers *2;
+numbers.map(function(numbers){
+  result.push(numbers *2);
 
 });
+return result
 }
     module.exports = doubleAll
