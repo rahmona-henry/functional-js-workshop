@@ -1,9 +1,6 @@
-function upperCaser(input) {
+var stringtoUpper = function upperCaser(input) {
+      // SOLUTION GOES HERE
+      return input.toUpperCase();
+    };
     
-module.exports = function (input) {
-  return input.toUpperCase();
-};
-
-}
-    
-    module.exports = upperCaser
+  exports.toUpper = stringtoUpper; 
