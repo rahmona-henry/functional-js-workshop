@@ -1,7 +1,7 @@
-function upperCaser(input) {
-
-var input = prompt("Do you like puppies").toUpperCase();
-
-}
-module.exports = upperCaser
-
+  function upperCaser(input) {
+    
+    // SOLUTION GOES HERE
+     return input.toUpperCase();
+    }
+    
+    module.exports = upperCaser
